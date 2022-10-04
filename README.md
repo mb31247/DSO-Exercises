@@ -1,2 +1,2 @@
-# DSO 2022-Exercises
+# DSO-Exercises
 Weekly programming exercises for homework
