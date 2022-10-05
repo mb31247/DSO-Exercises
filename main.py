@@ -1,14 +1,25 @@
-from datetime import datetime
-t = datetime.now()
-year = t.year
-#print(year)
+"""""
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+age_year = str((2022-age) + 100)
+print(name + " you will turn 100 in " + age_year)
 
-name = raw_input("Enter your name")
-age = int(input("Enter your age"))
-#print ('Trial')
-print'Your name is ' + name +  ' and your age is', age
-print'\nYou will turn 100 years in', year+(100-age)
-string = 'You will turn 100 years in '+str(year+(100-age))+'\n'
-times = int(input("How many times do you want to see the previous message?---> "))
-print times * string
-#print(age)
+num = input(" Choose a random number: ")
+print((name + " you will turn 100 in " + age_year + '\n')*int(num))
+"""""
+
+num = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+
+if num % 2 == 0:
+    print("The first number is even")
+else:
+    print("The first number is odd")
+
+if int(num) % 4 == 0:
+    print("and the first number is a multiple of 4")
+
+if (num%num2 == 0):
+    print("First number is also divisible by the second number")
+else:
+    print("First number is not divisible by the second number")
